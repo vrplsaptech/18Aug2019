@@ -22,8 +22,8 @@ public class EmployeeController {
 		Employee emp1 = new Employee(1,"Pala", "Veera", "vrpl@yahoo.com");
 		Employee emp2 = new Employee(1,"Anu", "Anandhi", "vrpl1@yahoo.com");
 		Employee emp3 = new Employee(1,"Anandhi", "Anandavalli", "vrpl2@yahoo.com");
-		
-		Employee emp4 = new Employee(1,"Kasthuri", "Swetha", "vrpl3@yahoo.com");
+		Employee emp4 = new Employee(1,"Anandhi", "Anandavalli", "vrpl2@yahoo.com");
+		Employee emp5 = new Employee(1,"Ghani", "Mohamed", "Ghanigreen@yahoo.com");
 		//create the list
 		theEmployees = new ArrayList<>();
 		
@@ -32,7 +32,7 @@ public class EmployeeController {
 		theEmployees.add(emp2);
 		theEmployees.add(emp3);
 		theEmployees.add(emp4);
-		
+		theEmployees.add(emp5);
 	}
 	/// add mapping for list
 	@GetMapping("/list")
